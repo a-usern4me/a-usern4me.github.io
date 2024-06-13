@@ -12,16 +12,14 @@ body {
 
 main {
     flex: 1;
-
 }
 
 header{
-    /*background-color: #284564;*/
     margin: 0px;
     padding: 0px;
     width: 100%;
     margin-bottom: 10px;
-
+   
 }
 
 h1 {
@@ -40,12 +38,14 @@ hr {
 
 footer {
     color: #f2f4f7;
-    /*background-color: #284564;*/
+    background-color: #212417;
     clear: both;
     margin: 0px;
     padding: 0px;
     position: relative;
     text-align: center;
+    padding-top: 10px;
+    border-top: 2px solid #000000;
 
 }
 
@@ -56,45 +56,45 @@ footer iconify-icon{
 
 /* Nav Bar */
 nav {
-    margin: 0px;
-    padding: 0px;
     margin: 10px;
+    padding: 0px;
+    display: flex;
 
 }
 
 nav ul{
     list-style-type: none;
     margin: 0px;
-    padding: 0px;
-    display: flex;
+    padding: 2px;
+    display: inline;
     justify-content: center;
     align-items: center;
-
+    background-color: #212417;
+    border: 1px solid #000000;
+    border-radius: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
 
 nav ul li {
     float: left;
-    display: inline;
     margin: 2px;
 
 }
 
 nav ul li a {
     font-weight: bolder;
-    display: inline;
     text-align: center;
     text-decoration: none;
-    color: #f2f4f7;
+    color: grey;
     padding: 5px;
     border-radius: 2px;
 
 }
 
 .active {
-    background-color: #212417;
-    border: 2px solid #f2f4f7;
-    border-radius: 2px;
-
+    color: #f2f4f7;
 }
 
 /* Text Formatting */
@@ -153,7 +153,6 @@ nav ul li a {
 
 .contentBox{
     color: #f2f4f7;
-    /*background-color: #284564;*/
     width: 100%;
     text-align: center;
     margin: 5px;
@@ -282,9 +281,9 @@ nav ul li a {
 }
 
 /* Media Queries */
-@media screen and (max-width: 430px)
+@media screen and (max-width: 1024px)
 {
-    header, main, footer {
+    main {
         margin: 10px;
     }
 
@@ -295,8 +294,6 @@ nav ul li a {
         display: block;
         justify-content: center;
         align-items: center;
-        margin-left: 30%;
-        margin-right: 30%;
         
     }
 
@@ -316,7 +313,7 @@ nav ul li a {
     }
 
     .overlay {
-        opacity: 1;
+        display: none;
     }
 
     .imageContainer {
