@@ -44,14 +44,20 @@ footer {
     padding: 0px;
     position: relative;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 5px;
     border-top: 2px solid #000000;
+    margin-top: 10px;
 
 }
 
 footer iconify-icon{
     color: #f2f4f7;
     font-size: 24px;
+}
+
+footer p{
+    margin: 2px;
+
 }
 
 /* Nav Bar */
@@ -121,7 +127,7 @@ nav ul li a {
     border-radius: 2px;
     text-align: center;
     padding: 10px;
-    margin: 30px;
+    margin: 15px;
     box-shadow: 4px 4px 0px black;
     
 }
@@ -131,16 +137,10 @@ nav ul li a {
 }
 
 .textFormatting {
-    display: inline-block;
+    display: block;
     justify-content: center;
     text-align: left;
-    margin-left: auto;
-    margin-right: auto;
-    
-}
 
-.bullet{
-    margin: 5px;
 }
 
 /* Section Formatting */
@@ -155,15 +155,13 @@ nav ul li a {
     color: #f2f4f7;
     width: 100%;
     text-align: center;
-    margin: 5px;
     position: relative;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 10px;
-
+   
 }
 
-/* Index Page */
+/* About Me Page */
 .wallGraphic {
     display: flex;
     justify-content: center;
@@ -184,16 +182,18 @@ nav ul li a {
 
 .iconWall li{
     margin: 10px;
+    margin-bottom: 0px;
 }
 
 .overlay {
-    height: 50px;
+    height: 30px;
     width: 50px;
     transition: .5s ease;
     opacity:0;
     color: #f2f4f7;
     font-size: 12px;
     text-align: center;
+    margin-bottom: 0px;
 
 }
 
@@ -222,7 +222,7 @@ nav ul li a {
     max-width: 100%;
     margin-left: auto;
     margin-right: auto;
-
+   
 }
 
 .imageFormatting {
@@ -230,7 +230,7 @@ nav ul li a {
     line-height: 0;
     margin: 5px;
     border: 2px solid black;
-    
+   
 }
 
 .videoContainer {
@@ -267,8 +267,10 @@ nav ul li a {
 }
 
 .gameVideoFormatting {
-    display: inline;
+    display: block;
     width: 70%;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 
@@ -304,8 +306,13 @@ nav ul li a {
     
     }
 
-    .bullet {
+    .textFormatting {
         text-align: center;
+    }
+
+    .textTest {
+        margin-left: 30px;
+        margin-right: 30px;
     }
 
     .wallGraphic {
