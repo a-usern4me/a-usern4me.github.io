@@ -9,9 +9,10 @@
     <title>Jake McMillan | Portfolio</title>
     <link rel="icon" type="image/x-icon" href="Icons/Favicon.png">
 
-    <link rel="stylesheet" type="text/css" href="styles.css"> 
-    <script src="https://code.iconify.design/iconify-icon/2.1.0/iconify-icon.min.js"></script>
-    <script src="Script.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="Script.js" defer></script>
+    <script src="https://code.iconify.design/iconify-icon/2.1.0/iconify-icon.min.js" defer></script>
+    
    
 </head>
 
@@ -42,8 +43,8 @@
                         <p>ToonBoom Harmony Advanced - May 2023</p>
                     </div>
                     
-                    <video width="100%" height="100%" controls>
-                        <source src="Videos/2D Animation Showreel.mp4" type ="video/mp4" preload="none">
+                    <video width="100%" height="100%" controls preload="none" poster="Images/2D Animation Showreel - Thumbnail.jpg">
+                        <source src="Videos/2D Animation Showreel.mp4" type ="video/mp4">
                         Your browser does not support this video.
                     </video>
 
@@ -56,8 +57,8 @@
                         <p>Blender - April 2024</p>
                     </div>
     
-                    <video  width="100%" height="100%" controls >
-                        <source src="Videos/3D Animation Showreel.mp4" type ="video/mp4" preload="none">
+                    <video  width="100%" height="100%" controls preload="none" poster="Images/3D Animation Showreel - Thumbnail.jpg">
+                        <source src="Videos/3D Animation Showreel.mp4" type ="video/mp4">
                         Your browser does not support this video.
                     </video>
 
@@ -76,15 +77,15 @@
 
             <div class="imageContainer">
                 <div class="imageFormatting">
-                    <img src="Images/3D Render 1.webp" width="100%" height="100%" alt="Render 1" loading="lazy">
+                    <img src="Images/3D Render 1.webp" width="100%" height="100%" alt="Render 1">
                 </div>
 
                 <div class="imageFormatting">
-                    <img src="Images/3D Render 2.webp" width="100%" height="100%" alt="Render 2" loading="lazy">
+                    <img src="Images/3D Render 2.webp" width="100%" height="100%" alt="Render 2">
                 </div>
 
                 <div class="imageFormatting">
-                    <img src="Images/3D Render 3.webp" width="100%" height="100%" alt="Render 3" loading="lazy">
+                    <img src="Images/3D Render 3.webp" width="100%" height="100%" alt="Render 3">
                 </div>
             </div>
 
@@ -100,15 +101,15 @@
 
             <div class="imageContainer">
                 <div class="imageFormatting">
-                    <img src="Images/Vs Lust - Sketching.webp" width="100%" height="100%" alt="Sketching" loading="lazy">
+                    <img src="Images/Vs Lust - Sketching.webp" width="100%" height="100%" alt="Sketching">
                 </div>
 
                 <div class="imageFormatting">
-                    <img src="Images/Vs Lust - B&W.webp" width="100%" height="100%" alt="B&W" loading="lazy">
+                    <img src="Images/Vs Lust - B&W.webp" width="100%" height="100%" alt="B&W">
                 </div>
 
                 <div class="imageFormatting">
-                    <img src="Images/Vs Lust.webp" width="100%" height="100%" alt="Final" loading="lazy">
+                    <img src="Images/Vs Lust.webp" width="100%" height="100%" alt="Final">
                 </div>
             </div>
 
@@ -124,7 +125,7 @@
                         <p>Adobe Illustrator - March 2024</p>
 
                     </div>
-                    <img src="Images/AGM Poster.webp" width="100%" height="100%" alt="AGM Poster" loading="lazy">
+                    <img src="Images/AGM Poster.webp" width="100%" height="100%" alt="AGM Poster">
                
                 </div>
 
@@ -135,7 +136,7 @@
                         <p>Adobe Illustrator - November 2023</p>
 
                     </div>
-                    <img src="Images/Blender Wars.webp" width="100%" height="100%" alt="Blender Wars Poster" loading="lazy">
+                    <img src="Images/Blender Wars.webp" width="100%" height="100%" alt="Blender Wars Poster">
                
                 </div>   
             </div>
@@ -147,12 +148,13 @@
                         <p class="greyText">Coursework</p>
                         <p>Adobe InDesign - December 2023</p>
                     </div>
-           
+
                     <div class="brochureContainer">
-                        <iframe style="border: 1px solid black;" src="https://indd.adobe.com/embed/51bc00b5-ed06-4f60-86ae-42643bdbd33b?startpage=1&allowFullscreen=true" width="100%" height="460px" frameborder="0" allowfullscreen="" loading="lazy"></iframe>
+                        <iframe title="Amestris Brochure" style="border: 1px solid black;" src="https://indd.adobe.com/embed/51bc00b5-ed06-4f60-86ae-42643bdbd33b?startpage=1&allowFullscreen=true" loading="lazy" width="100%" height="460px" allow="fullscreen"></iframe>
                     </div>
                 </div>
 
+                <!--
                 <div class="videoFormatting">
                     <div class="textTest">
                         <h4>Toy Donation App</h4>
@@ -161,9 +163,10 @@
                     </div>
 
                     <div class="brochureContainer">
-                        <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="460px" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FYTmTHwvPH58xJEYjSl36f0%2FCM3119---Toy-Donations%3Fnode-id%3D35-792%26t%3DYMJxt9aMttnKVBpr-1%26scaling%3Dscale-down%26content-scaling%3Dfixed%26page-id%3D35%253A791%26starting-point-node-id%3D35%253A792" allowfullscreen loading="lazy"></iframe>
+                        <iframe title="Charity App" style="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="460px" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FYTmTHwvPH58xJEYjSl36f0%2FCM3119---Toy-Donations%3Fnode-id%3D35-792%26t%3DYMJxt9aMttnKVBpr-1%26scaling%3Dscale-down%26content-scaling%3Dfixed%26page-id%3D35%253A791%26starting-point-node-id%3D35%253A792" loading="lazy" allowfullscreen></iframe>
                     </div>
                 </div>
+                -->
             </div>
 
             <!-- Games Development Section -->
@@ -178,7 +181,7 @@
                         <p>Unity, C++ - May 2023</p>
                     </div>
               
-                    <video class="gameVideoFormatting" width="100%" height="100%" controls preload="none">
+                    <video class="gameVideoFormatting" width="100%" height="100%" controls preload="none" poster="Images/Photogrammetry Game - Thumbnail.jpg">
                         <source src="Videos/Photogrammetry Game.mp4" type ="video/mp4">
                         Your browser does not support this video.
                     </video>
