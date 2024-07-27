@@ -11,6 +11,7 @@ body {
 }
 
 main {
+    margin: 5px;
     flex: 1;
 }
 
@@ -226,13 +227,123 @@ nav ul li a {
 }
 
 .imageFormatting {
+  
     display: block;
-    line-height: 0;
+ 
     margin: 5px;
+    line-height: 0;
     border: 2px solid black;
+    
    
 }
 
+.imageFormatting2 {
+    position: relative;
+    display: inline-block;
+    margin: 5px;
+
+    border: 2px solid black;
+    /*line-height: 0;*/
+   
+}
+
+.imageFormatting3 {
+    position: relative;
+    display: inline-flex;
+    margin: 5px;
+
+    max-width: 30%;
+    height: 10%;
+
+    border: 2px solid black;
+    background-color: #ffffff;
+    /*line-height: 0;*/
+   
+}
+
+.imageFormatting4 {
+    position: relative;
+    display: inline-flex;
+    margin: 5px;
+
+    max-width: 35%;
+    height: 10%;
+
+    border: 2px solid black;
+    background-color: #ffffff;
+    /*line-height: 0;*/
+   
+}
+
+.imageContainer2 {
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+
+    /*height: 100%;*/
+  
+    /*max-width: 100%;*/
+    /*margin-left: auto;
+    margin-right: auto;*/
+   
+}
+
+.imageContainer3 {
+    position: relative;
+    display: flex;
+
+    margin: 0px;
+    padding: 0px;
+    
+    /*display: block;*/
+    /*left: 0%;*/
+
+    /*height: 100%;*/
+   
+    max-width: 45%;
+    /*margin-left: auto;
+    margin-right: auto;*/
+    
+   
+}
+
+.imageText {
+    /*width: 100%;*/
+    position: absolute;
+   
+    top: 0px;
+    text-align: center;
+    
+    transition: .5s ease;
+    opacity:0;
+
+    color: #212417;
+    background-color: #f2f4f7;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    font-size: 30px;
+
+    margin: 0px;
+    padding: 2px;
+
+}
+
+.imageFormatting2:hover .imageText{
+    opacity: 1;
+}
+
+.imageFormatting3:hover .imageText{
+    opacity: 1;
+}
+
+.imageFormatting4:hover .imageText{
+    opacity: 1;
+}
+
+.imageContainer3:hover .imageText{
+    opacity: 1;
+}
+    
 .videoContainer {
     padding: 0px;
     margin: 0px;
@@ -248,8 +359,8 @@ nav ul li a {
 
 .videoFormatting {
     display: block;
-    width: 100%;
-    margin: 5px;
+    /*width: 100%;*/
+    /*margin: 5px;*/
 
 }
 
@@ -261,6 +372,19 @@ nav ul li a {
     align-items: center;
     justify-content: center;
     width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.brochureContainer2 {
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    /*flex-direction: row;
+    align-items: center;
+    justify-content: center;*/
+    max-width: 60%;
     margin-left: auto;
     margin-right: auto;
 
@@ -323,13 +447,28 @@ nav ul li a {
         display: none;
     }
 
-    .imageContainer {
+    .imageContainer, .imageContainer2, .imageContainer3 {
         display: inline-block;
         align-items: center;
         justify-content: center;
         height: auto;
         max-width: 100%;
 
+    }
+
+    .imageFormatting2 {
+        border: 0px;
+    }
+
+    .imageFormatting3, .imageFormatting4 {
+        border: 0px;
+        max-width: 100%;
+        height: 100%;
+    }
+
+    .imageText {
+        font-size: 12px;
+        opacity: 1;
     }
 
     .videoContainer {
