@@ -7,7 +7,6 @@ body {
     min-height: 100%;
     width: 100%;
     font-family: Verdana;
-
 }
 
 main {
@@ -20,7 +19,6 @@ header{
     padding: 0px;
     width: 100%;
     margin-bottom: 10px;
-   
 }
 
 h1 {
@@ -48,7 +46,6 @@ footer {
     padding-top: 5px;
     border-top: 2px solid #000000;
     margin-top: 10px;
-
 }
 
 footer iconify-icon{
@@ -58,7 +55,6 @@ footer iconify-icon{
 
 footer p{
     margin: 2px;
-
 }
 
 /* Nav Bar */
@@ -66,7 +62,6 @@ nav {
     margin: 10px;
     padding: 0px;
     display: flex;
-
 }
 
 nav ul{
@@ -80,14 +75,12 @@ nav ul{
     border: 1px solid #000000;
     border-radius: 2px;
     margin-left: auto;
-    margin-right: auto;
-    
+    margin-right: auto; 
 }
 
 nav ul li {
     float: left;
     margin: 2px;
-
 }
 
 nav ul li a {
@@ -97,7 +90,6 @@ nav ul li a {
     color: grey;
     padding: 5px;
     border-radius: 2px;
-
 }
 
 .active {
@@ -114,7 +106,6 @@ nav ul li a {
     text-shadow: 2px 2px 0px black;
     -webkit-text-stroke: 2px black;
     margin-bottom: 2px;
-
 }
 
 .textTest {
@@ -130,7 +121,6 @@ nav ul li a {
     padding: 10px;
     margin: 15px;
     box-shadow: 4px 4px 0px black;
-    
 }
 
 .greyText {
@@ -141,7 +131,6 @@ nav ul li a {
     display: block;
     justify-content: center;
     text-align: left;
-
 }
 
 /* Section Formatting */
@@ -149,7 +138,6 @@ nav ul li a {
     min-height: 100vh;    
     display: flex;
     flex-direction: column;
-    
 }
 
 .contentBox{
@@ -159,14 +147,12 @@ nav ul li a {
     position: relative;
     margin-left: auto;
     margin-right: auto;
-   
 }
 
 /* About Me Page */
 .wallGraphic {
     display: flex;
     justify-content: center;
-
 }
 
 .iconWall {
@@ -178,7 +164,6 @@ nav ul li a {
     text-align: center;
     margin: 0px;
     padding: 0px;
-    
 }
 
 .iconWall li{
@@ -195,7 +180,6 @@ nav ul li a {
     font-size: 12px;
     text-align: center;
     margin-bottom: 0px;
-
 }
 
 .iconWall li:hover .overlay{
@@ -209,7 +193,6 @@ nav ul li a {
     margin-left: auto;
     margin-right: auto;
     text-decoration: none;
-
 }
 
 /* Portfolio Page */
@@ -223,95 +206,16 @@ nav ul li a {
     max-width: 100%;
     margin-left: auto;
     margin-right: auto;
-   
 }
 
-.imageFormatting {
-  
-    display: block;
- 
-    margin: 5px;
-    line-height: 0;
-    border: 2px solid black;
-    
-   
-}
-
-.imageFormatting2 {
-    position: relative;
-    display: inline-block;
-    margin: 5px;
-
-    border: 2px solid black;
-    /*line-height: 0;*/
-    border-radius: 2px;
-}
-
-.imageFormatting3 {
-    position: relative;
-    display: inline-flex;
-    margin: 5px;
-
-    max-width: 35%;
-    /*height: 10%;*/
-
-    border: 2px solid black;
-    background-color: #ffffff;
-    /*line-height: 0;*/
-   
-}
-
-.imageFormatting4 {
-    position: relative;
-    display: inline-flex;
-    margin: 5px;
-
-    max-width: 50%;
-    /*height: 10%;*/
-
-    border: 2px solid black;
-    background-color: #ffffff;
-    /*line-height: 0;*/
-   
-}
-
-.imageFormatting5 {
-    position: relative;
-    display: inline-block;
-    margin: 2px;
-
-    /*border: 2px solid black;
-    line-height: 0;*/
-   
-}
-
-.imageFormatting6 {
-    position: relative;
-    display: block;
-    margin: 5px;
-
-    max-width: 45%;
-    /*height: 10%;*/
-
-    border: 2px solid black;
-    line-height: 0;
-   
-}
-
+/* To make content fit in a horizontal grid */
 .imageContainer2 {
     padding: 0px;
     margin: 0px;
     display: flex;
 }
 
-.imageContainer5 {
-    padding: 0px;
-    margin: 0px;
-    display: inline-flex;
-    max-width: 100%;
-}
-
-
+/* For AGM poster */
 .imageContainer3 {
     position: relative;
     display: flex;
@@ -320,6 +224,7 @@ nav ul li a {
     max-width: 45%;
 }
 
+/* For Blender Wars Poster */
 .imageContainer4 {
     padding: 0px;
     margin: 0px;
@@ -327,62 +232,95 @@ nav ul li a {
     display: inline-block;
 }
 
+/* Last Container */
+.imageContainer5 {
+    padding: 0px;
+    margin: 0px;
+    display: inline-flex;
+    max-width: 100%;
+}
+
+.imageFormatting {
+    display: block;
+    margin: 5px;
+    line-height: 0;
+    border: 2px solid black;
+}
+
+.imageFormatting2 {
+    position: relative;
+    display: inline-block;
+    margin: 5px;
+    border: 2px solid black;
+    border-radius: 2px;
+}
+
+.imageFormatting3 {
+    position: relative;
+    display: inline-flex;
+    margin: 5px;
+    max-width: 35%;
+    border: 2px solid black;
+    background-color: #ffffff;
+}
+
+/*
+.imageFormatting4 {
+    position: relative;
+    display: inline-flex;
+    margin: 5px;
+    max-width: 50%;
+    border: 2px solid black;
+    background-color: #ffffff;
+}
+*/
+
+.imageFormatting5 {
+    position: relative;
+    display: inline-block;
+    margin: 2px;
+}
+
+.imageFormatting6 {
+    position: relative;
+    display: block;
+    margin: 5px;
+    max-width: 45%;
+    border: 2px solid black;
+    line-height: 0;
+}
+
 .imageText {
     width: 100%;
     height: 100%;
-    /*height: 100%;*/
     position: absolute;
     bottom: 0px;
-    
-    transition: .3s ease;
-    /*opacity:1;*/
-    opacity: 0;
-
-    /*
-    color: #212417;
-    background-color: #f2f4f7;
-    */
-
-  
-    /*font-size: 30px;*/
     margin: 0px;
     padding: 0px;
-
     box-shadow: inset 0px 0px 15px 0px #000000;
+    transition: .3s ease;
+    opacity: 0;
     pointer-events: none;
-   
 }
 
 .imageText p{
     position: absolute;
     text-align: center;
     opacity: 0;
-    
     width: 100%;
     bottom: 0;
     left: 0;
-
     color: #f2f4f7;
     background-color: #212417;
-   
     border-top: 2px solid black;
     border-right: 2px solid black;
-
     margin: 0px;
     padding: 0px;
-
     font-size: 20px;
-    
-
 }
 
 a img {
     object-fit: cover;
-}
-
-header iconify-icon{
-    color: #f2f4f7;
-    font-size: 24px;
 }
 
 .imageFormatting2:hover .imageText, .imageText p{
@@ -390,18 +328,12 @@ header iconify-icon{
     opacity: 1;
 }
 
-.imageFormatting3:hover .imageText{
+.imageFormatting3:hover .imageText, .imageText p{
+    transition: 0.3s ease;
     opacity: 1;
 }
 
-.imageFormatting4:hover .imageText{
-    opacity: 1;
-}
-
-.imageContainer3:hover .imageText{
-    opacity: 1;
-}
-    
+/*
 .videoContainer {
     padding: 0px;
     margin: 0px;
@@ -414,16 +346,7 @@ header iconify-icon{
     margin-right: auto;
 
 }
-
-.videoFormatting {
-    display: block;
-    /*width: 100%;*/
-    /*margin: 5px;*/
-    background-color: #212417;
-    border: 2px solid black;
-    border-radius: 5px;
-
-}
+*/
 
 .videoContainer2 {
     padding: 0px;
@@ -435,18 +358,25 @@ header iconify-icon{
     max-width: 70%;
     margin-left: auto;
     margin-right: auto;
-
 }
 
-.videoFormatting2 {
+.videoFormatting {
     display: block;
-    /*width: 100%;*/
-    margin: 5px;
     background-color: #212417;
     border: 2px solid black;
     border-radius: 5px;
 }
 
+/* For Drawings */
+.videoFormatting2 {
+    display: block;
+    background-color: #212417;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+/*
 .brochureContainer {
     padding: 0px;
     margin: 0px;
@@ -457,20 +387,15 @@ header iconify-icon{
     width: 50%;
     margin-left: auto;
     margin-right: auto;
-
 }
 
 .brochureContainer2 {
     padding: 0px;
     margin: 0px;
     display: flex;
-    /*flex-direction: row;
-    align-items: center;
-    justify-content: center;*/
     max-width: 60%;
     margin-left: auto;
     margin-right: auto;
-
 }
 
 .gameVideoFormatting {
@@ -478,7 +403,6 @@ header iconify-icon{
     width: 70%;
     margin-left: auto;
     margin-right: auto;
-
 }
 
 .backButton {
@@ -488,8 +412,11 @@ header iconify-icon{
     font-size: 24px;
     cursor: pointer;
 }
+*/
 
 /* Media Queries */
+
+/* For phones */
 @media screen and (max-width: 768px)
 {
     main {
@@ -503,14 +430,12 @@ header iconify-icon{
         display: block;
         justify-content: center;
         align-items: center;
-        
     }
 
     li {
         float: none;
         display: block;
         padding: 2px;
-    
     }
 
     .textFormatting {
@@ -536,18 +461,9 @@ header iconify-icon{
         justify-content: center;
         height: auto;
         max-width: 100%;
-       
-
     }
 
-    .imageFormatting2 {
-        /*border: 0px;*/
-        display: inline-block;
-        line-height: 0;
-    }
-
-    .imageFormatting3, .imageFormatting4, .imageFormatting6 {
-        /*border: 0px;*/
+    .imageFormatting2, .imageFormatting3, .imageFormatting4, .imageFormatting6 {
         display: inline-block;
         line-height: 0;
         max-width: 100%;
@@ -555,13 +471,10 @@ header iconify-icon{
     }
 
     .imageText {
-        /*font-size: 18px;*/
         line-height: normal;
-        /*transition: 0.2s ease;*/
         opacity: 1;
         background: none;
         bottom:0;
-        
         color: #000000;
         width: 100%;
         height: 100%;
@@ -570,36 +483,19 @@ header iconify-icon{
     }
 
     .imageText p{
-        /*font-size: 18px;*/
         line-height: normal;
         position: absolute;
-        /*transition: 0.2s ease;*/
         opacity: 1;
         color: #f2f4f7;
         background: #212417;
         bottom:0;
-
         border-top: 2px solid black;
         border-right: 2px solid black;
-
         margin: 0px;
         padding: 0px;
-        
-        
     }
 
-    a img {
-        object-fit: contain;
-    }
-
-    .videoContainer {
-        display: inline-block;
-        align-items: center;
-        justify-content: center;
-        max-width: 100%;
-    }
-
-    .videoContainer2 {
+    .videoContainer, .videoContainer2 {
         display: inline-block;
         align-items: center;
         justify-content: center;
@@ -611,6 +507,7 @@ header iconify-icon{
         margin: 0px;
     }
 
+    /*
     .brochureContainer {
         width: 100%;
         margin-left: auto;
@@ -622,5 +519,14 @@ header iconify-icon{
         display: inline;
         width: 100%;
     
+    }
+    */
+
+}
+
+/* For tablets */
+@media screen and (max-width: 1366px){
+    .imageText {
+        opacity: 1;
     }
 }
