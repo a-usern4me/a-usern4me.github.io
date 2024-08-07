@@ -196,23 +196,12 @@ nav ul li a {
 }
 
 /* Portfolio Page */
-.imageContainer {
-    padding: 0px;
-    margin: 0px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    max-width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 /* To make content fit in a horizontal grid */
 .imageContainer2 {
     padding: 0px;
     margin: 0px;
     display: flex;
+    justify-content: center;
 }
 
 /* For AGM poster */
@@ -224,20 +213,12 @@ nav ul li a {
     max-width: 45%;
 }
 
-/* For Blender Wars Poster */
+/* Vertical */
 .imageContainer4 {
     padding: 0px;
     margin: 0px;
     position: relative;
     display: inline-block;
-}
-
-/* Last Container */
-.imageContainer5 {
-    padding: 0px;
-    margin: 0px;
-    display: inline-flex;
-    max-width: 100%;
 }
 
 .imageFormatting {
@@ -264,23 +245,14 @@ nav ul li a {
     background-color: #ffffff;
 }
 
-/*
-.imageFormatting4 {
-    position: relative;
-    display: inline-flex;
-    margin: 5px;
-    max-width: 50%;
-    border: 2px solid black;
-    background-color: #ffffff;
-}
-*/
-
+/* 3D Renders */
 .imageFormatting5 {
     position: relative;
     display: inline-block;
     margin: 2px;
 }
 
+/* Concept Images */
 .imageFormatting6 {
     position: relative;
     display: block;
@@ -333,21 +305,6 @@ a img {
     opacity: 1;
 }
 
-/*
-.videoContainer {
-    padding: 0px;
-    margin: 0px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    max-width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-
-}
-*/
-
 .videoContainer2 {
     padding: 0px;
     margin: 5px;
@@ -375,44 +332,6 @@ a img {
     border-radius: 5px;
     margin: 5px;
 }
-
-/*
-.brochureContainer {
-    padding: 0px;
-    margin: 0px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.brochureContainer2 {
-    padding: 0px;
-    margin: 0px;
-    display: flex;
-    max-width: 60%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.gameVideoFormatting {
-    display: block;
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.backButton {
-    border: none;
-    background: none;
-    color: #f2f4f7;
-    font-size: 24px;
-    cursor: pointer;
-}
-*/
 
 /* Media Queries */
 
@@ -455,7 +374,7 @@ a img {
         display: none;
     }
 
-    .imageContainer, .imageContainer2, .imageContainer3, .imageContainer4, .imageContainer5{
+    .imageContainer2, .imageContainer3, .imageContainer4, .imageContainer5{
         display: inline-block;
         align-items: center;
         justify-content: center;
@@ -463,7 +382,7 @@ a img {
         max-width: 100%;
     }
 
-    .imageFormatting2, .imageFormatting3, .imageFormatting4, .imageFormatting6 {
+    .imageFormatting2, .imageFormatting3, .imageFormatting5, .imageFormatting6 {
         display: inline-block;
         line-height: 0;
         max-width: 100%;
@@ -495,33 +414,16 @@ a img {
         padding: 0px;
     }
 
-    .videoContainer, .videoContainer2 {
+    .videoContainer2 {
         display: inline-block;
         align-items: center;
         justify-content: center;
         max-width: 100%;
-        
     }
 
     .videoFormatting {
         margin: 0px;
     }
-
-    /*
-    .brochureContainer {
-        width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-    
-    }
-
-    .gameVideoFormatting {
-        display: inline;
-        width: 100%;
-    
-    }
-    */
-
 }
 
 /* For tablets */
