@@ -43,18 +43,21 @@ footer {
     padding: 0px;
     position: relative;
     text-align: center;
-    padding-top: 5px;
     border-top: 2px solid #000000;
-    margin-top: 10px;
 }
 
 footer iconify-icon{
     color: #f2f4f7;
     font-size: 24px;
+    margin-top: 5px;
+}
+
+footer h4 {
+    margin: 0px;
 }
 
 footer p{
-    margin: 2px;
+    margin-bottom: 5px;
 }
 
 /* Nav Bar */
