@@ -224,6 +224,14 @@ nav ul li a {
     display: inline-block;
 }
 
+.imagePanels {
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    height: 800px;
+}
+
 .imageFormatting {
     display: block;
     margin: 5px;
@@ -273,7 +281,7 @@ nav ul li a {
     margin: 0px;
     padding: 0px;
     box-shadow: inset 0px 0px 15px 0px #000000;
-    transition: .3s ease;
+    transition: 0.66s ease;
     opacity: 0;
     pointer-events: none;
 }
@@ -295,16 +303,18 @@ nav ul li a {
 }
 
 a img {
-    object-fit: cover;
+    transition: width 0.66s ease-out;
+    /*object-fit: cover;
+    height: 600px;*/
 }
 
 .imageFormatting2:hover .imageText, .imageText p{
-    transition: 0.3s ease;
+    /*transition: 0.3s ease;*/
     opacity: 1;
 }
 
 .imageFormatting3:hover .imageText, .imageText p{
-    transition: 0.3s ease;
+    /*transition: 0.3s ease;*/
     opacity: 1;
 }
 
@@ -377,7 +387,7 @@ a img {
         display: none;
     }
 
-    .imageContainer2, .imageContainer3, .imageContainer4, .imageContainer5{
+    .imageContainer2, .imageContainer3, .imageContainer4, .imageContainer5, .imagePanels{
         display: inline-block;
         align-items: center;
         justify-content: center;
@@ -433,5 +443,9 @@ a img {
 @media screen and (max-width: 1366px){
     .imageText {
         opacity: 1;
+    }
+
+    .imagePanels {
+        height: auto;
     }
 }
