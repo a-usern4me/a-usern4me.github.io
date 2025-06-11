@@ -33,6 +33,9 @@ h1 {
 h3 {
     text-align: center;
     color: #f2f4f7;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 24px;
+    text-shadow: 3px 2px 0px #000000;
 }
 
 hr {
@@ -42,7 +45,7 @@ hr {
 
 footer {
     color: #f2f4f7;
-    /*background-color: #212417;*/
+    background-color: #212417;
     clear: both;
     margin: 0px;
     padding: 0px;
@@ -55,7 +58,7 @@ footer iconify-icon{
     color: #f2f4f7;
     font-size: 32px;
     margin-top: 5px;
-    margin-bottom: 10px;
+    /*margin-bottom: 10px;*/
 }
 
 footer h4 {
@@ -63,7 +66,8 @@ footer h4 {
 }
 
 footer p{
-    margin-bottom: 5px;
+    /*margin-bottom: 5px;*/
+    font-size: 14px;
 }
 
 /* Nav Bar */
@@ -113,8 +117,13 @@ nav ul li a {
     padding: 0px;
     margin: 0px;
     text-shadow: 2px 2px 0px black;
-    font-family: 'Franklin Gothic Heavy';
+    /*font-family: 'Franklin Gothic Heavy';*/
+    font-family: 'Franklin Gothic Medium';
     background-color: #000000;
+}
+
+header h1 {
+    font-size: 30px;
 }
 
 .textTest {
@@ -521,6 +530,14 @@ iframe {
     margin: 5px;
 }
 
+header .icon {
+    display: none;
+}
+
+#navID {
+    display: none;
+}
+
 /* Media Queries */
 
 /* For phones */
@@ -533,8 +550,36 @@ iframe {
         padding: 15px;
     }
 
-    header {
-        background-color: transparent;
+    header .icon {
+        color: #ffffff;
+        display: block;
+        position: absolute;
+        margin: 5px;
+        left: 0;
+        top: 0;
+    }
+
+    header .icon iconify-icon {
+        font-size: 18px;
+    }
+
+    nav {
+        display: none;
+    }
+
+    #navID {
+        display: none;
+        position: relative;
+    }
+
+    #navID a {
+        color: #ffffff;
+        background-color: #212417;
+        text-decoration: none;
+        font-weight: bold;
+        display: block;
+        left: 0;
+        top: 0;
     }
 
     .headerImage {
@@ -550,6 +595,10 @@ iframe {
         justify-content: center;
         height: 100px;
         width: 100px;
+    }
+
+    footer p {
+        font-size: 12px;
     }
 
     ul{
@@ -660,6 +709,10 @@ iframe {
         width: 100%;
         height: auto;
     }
+
+    .next, .prev {
+        display: none;
+    }
 }
 
 /* For tablets */
@@ -684,6 +737,19 @@ iframe {
     }
 
     .imagePanels {
-        height: auto;
+        display: inline-block;
+        /*align-items : center;
+        justify-content: center;*/
+        max-width: 100%;
+    }
+
+    iframe {
+        max-width: 100%;
+        /*height: auto;*/
+    }
+
+    .slideshow-container {
+        width: 80%;
+        justify-content: center;
     }
 }
