@@ -117,7 +117,6 @@ nav ul li a {
     padding: 0px;
     margin: 0px;
     text-shadow: 2px 2px 0px black;
-    /*font-family: 'Franklin Gothic Heavy';*/
     font-family: 'Franklin Gothic Medium';
     background-color: #000000;
 }
@@ -535,6 +534,10 @@ header .icon {
 }
 
 #navID {
+    display: none;
+}
+
+#navID a {
     display: none;
 }
 
