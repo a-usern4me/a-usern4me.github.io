@@ -9,18 +9,19 @@ body {
 }
 
 @keyframes fadeIn {
-    0%   {opacity: 0;}
-    25% {opacity: 25;}
-    50% {opacity: 50;}
-    100% {opacity: 100;}
+    0%   {opacity: 0; left: -50px;}
+    100% {opacity: 1; left: 0px;}
+}
+
+@keyframes fadeInRight {
+    0%   {opacity: 0; right: -50px;}
+    100% {opacity: 1; right: 0px;}
 }
 
 main {
     flex: 1;
     margin-top: 110px;
     margin-bottom: 50px;
-    animation-name: fadeIn;
-    animation-duration: 1.5s;
 }
 
 header{
@@ -39,9 +40,18 @@ h1 {
 h3 {
     text-align: center;
     color: #f2f4f7;
-    font-family: 'Franklin Gothic Medium';
+    /*font-family: 'Franklin Gothic Medium';*/
+    font-family: 'Verdana';
     font-size: 24px;
     text-shadow: 3px 2px 0px #000000;
+}
+
+.textTest h3 {
+    text-align: center;
+    color: #000000;
+    font-family: 'Verdana';
+    font-size: 24px;
+    text-shadow: none;
 }
 
 hr {
@@ -51,7 +61,7 @@ hr {
 
 footer {
     color: #f2f4f7;
-    background-color: #212417;
+    background-color: #000000;
     clear: both;
     margin: 0px;
     padding: 0px;
@@ -136,12 +146,17 @@ header h1 {
     color: #212417;
     background-color: #f2f4f7;
     border: 2px solid black;
-    border-radius: 5px;
+    border-radius: 15px;
     text-align: center;
     padding: 10px;
     margin: 15px;
     box-shadow: 4px 4px 0px black;
-    width: 50%;
+    width: 70%;
+    animation-name: fadeIn;
+    animation-duration: 1s;
+    position: relative;
+    animation-fill-mode: forwards;
+    opacity: 0;
 }
 
 .greyText {
@@ -185,13 +200,19 @@ header h1 {
 * {box-sizing:border-box}
 
 .slideshow-container {
-    width: 50%;
+    width: 70%;
     position: relative;
     margin: auto;
-    background-color: #212417;
+    /*background-color: #212417;*/
+    background-color: #093050;
     border: 2px solid black;
     box-shadow: 4px 4px 0px black;
-    border-radius: 5px;
+    border-radius: 15px;
+    animation-name: fadeInRight;
+    animation-duration: 1s;
+    animation-delay: 0.3s;
+    animation-fill-mode: forwards;
+    opacity: 0;
 }
 
 .mySlides {
@@ -290,12 +311,18 @@ to {opacity: 1}
     align-items: center;
     display: inline-block;
     border: 2px solid black;
-    background-color: #212417;
-    border-radius: 2px;
+    background-color: #093050;
+    border-radius: 15px;
     padding: 10px;
     margin: 15px;
     box-shadow: 4px 4px 0px black;
-    width: 50%;
+    width: 70%;
+    animation-name: fadeIn;
+    animation-duration: 1s;
+    animation-delay: 0.5s;
+    position: relative;
+    animation-fill-mode: forwards;
+    opacity: 0;
 }
 
 .iconWall {
@@ -541,8 +568,6 @@ header .icon {
         margin-top: 50px;
         margin-bottom: 10px;
         padding: 15px;
-        animation-name: fadeIn;
-        animation-duration: 3s;
     }
 
     header {
