@@ -28,7 +28,7 @@ header{
     margin: 0px;
     padding: 0px;
     width: 100%;
-    background-color: #000000;
+    background-color: #093050;
     position: fixed;
     z-index: 1;
 }
@@ -85,9 +85,10 @@ footer p{
 
 /* Nav Bar */
 nav {
-    margin: 5px;
+    margin-top: 5px;
     padding: 0px;
     display: flex;
+    background-color: #000000;
 }
 
 nav ul{
@@ -97,9 +98,10 @@ nav ul{
     display: inline;
     justify-content: center;
     align-items: center;
-    background-color: #212417;
-    border: 1px solid #000000;
-    border-radius: 2px;
+    /*background-color: #212417;*/
+    /*background-color: #093050;*/
+    /*border: 1px solid #000000;
+    border-radius: 2px;*/
     margin-left: auto;
     margin-right: auto;
 }
@@ -129,9 +131,8 @@ nav ul li a {
     width: 100%;
     padding: 0px;
     margin: 0px;
-    text-shadow: 2px 2px 0px black;
+    /*text-shadow: 2px 2px 0px black;*/
     font-family: 'Franklin Gothic Medium';
-    background-color: #000000;
 }
 
 header h1 {
@@ -159,6 +160,22 @@ header h1 {
     opacity: 0;
 }
 
+.textTest2 {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: #212417;
+    text-align: center;
+    margin: 10px;
+    width: 70%;
+    animation-name: fadeIn;
+    animation-duration: 1s;
+    position: relative;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
 .greyText {
     color: grey;
 }
@@ -167,6 +184,10 @@ header h1 {
     display: block;
     text-align: left;
     font-size: 14px;
+    background-color: #f2f4f7;
+    border: 2px solid black;
+    border-radius: 15px;
+    box-shadow: 4px 4px 0px black;
 }
 
 .textFormatting li {
@@ -203,7 +224,6 @@ header h1 {
     width: 70%;
     position: relative;
     margin: auto;
-    /*background-color: #212417;*/
     background-color: #093050;
     border: 2px solid black;
     box-shadow: 4px 4px 0px black;
@@ -574,6 +594,10 @@ header .icon {
         background-color: transparent;
     }
 
+    .titleText {
+        background-color: #093050;
+    }
+
     header .icon {
         color: #ffffff;
         display: block;
@@ -594,13 +618,14 @@ header .icon {
     #navID {
         display: none;
         position: relative;
-        background-color: #212417;
+        /*background-color: transparent;*/
         border-bottom-right-radius: 5px;
         max-width: 25%;
     }
 
     #navID a {
         color: #b8b6b8;
+        background-color: #000000;
         text-decoration: none;
         font-weight: bold;
         display: block;
@@ -643,8 +668,10 @@ header .icon {
     }
 
     .textFormatting {
-        text-align: left;
+        /*text-align: left;*/
+        text-align: center;
         font-size: 12px;
+        margin-bottom: 5px;
     }
 
     .textFormatting li{
@@ -653,6 +680,11 @@ header .icon {
     }
 
     .textTest {
+        width: 80%;
+        justify-content: center;
+    }
+
+    .textTest2 {
         width: 80%;
         justify-content: center;
     }
