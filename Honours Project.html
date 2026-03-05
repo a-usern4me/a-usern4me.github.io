@@ -11,36 +11,100 @@
 
     <link rel="stylesheet" type="text/css" href="styles.css">
     <script src="https://code.iconify.design/iconify-icon/2.1.0/iconify-icon.min.js" defer></script>
+    <script src="Hamburger.js" defer></script>
+    <script src="Carousel.js" defer></script>
     
 </head>
 
 <body class="container">
     <header>
-        <h1 class="titleText">HONOURS PROJECT</h1>
+        <h1 class="titleText">JAKE MCMILLAN</h1>
+        <h2 class="titleText">Multimedia Designer</h2>
+
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="Portfolio.html">Portfolio</a></li>
+            </ul>
+        </nav>
+
+        <div id="navID">
+            <a href="index.html" class="active">Home</a>
+            <a href="Portfolio.html">Portfolio</a>
+        </div>
+
+        <a class="icon" onclick="hamburgerMenu()">
+            <iconify-icon icon="pajamas:hamburger"></iconify-icon>
+        </a>
     </header>
     
     <main>
         <div class="contentBox">
-            <div class="videoContainer2">
-                <div class="videoFormatting">
-                    <div class="textTest">
-                        <h4>Hybrid-Animated User Interface</h4>
-                        <p class="greyText">Coursework</p>
-                        <p>Blender, Unity & Adobe Suite - May 2025</p>
-                    </div>
-    
-                    <iframe src="https://www.youtube.com/embed/_dLRJxrhsl0"></iframe>
+            <h3>Final Year Honours Project</h3>
+            <h4>Blender, Unity & Adobe Suite - May 2025</h4>
 
-                    <!--
-                    <h4>Some Text</h4>
-                    -->
+            <div class="bioContainer">
+                <iframe width="100%" src="https://www.youtube.com/embed/_dLRJxrhsl0" allowfullscreen></iframe>
+  
+                <p class="bioText">An interactive hybrid/2.5D animated user interface running in the Unity engine,
+                    blending custom 3D and 2D components in a consistent comic-book inspired style.
+                    Guided by functional and non-functional requirements, the project progressed
+                    through concept development, implementation and iteration based on user-testing
+                    feedback to create a fully functional interface with animated transitions between
+                    screens. Partially evaluated on successful implementation of accessibility considerations,
+                    e.g. for those with visual impairments. Applied HCI and user-centred concepts to design
+                    for the user and guide best practices for GDPR-complaint collection of participant data.
+                </p>
+            </div>
+
+            <div class="slideshow-container2">
+                <div class="mySlides">
+                    <div class="imageFormatting2">
+                        <div class="numbertext">1 / 4</div>
+                        <img src="Images/Interaction Plan Storyboard.png" width="100%" height="100%" alt="2D Character">
+                    </div>
                 </div>
+
+                <div class="mySlides">
+                    <div class="imageFormatting2">
+                        <div class="numbertext">2 / 4</div>
+                        <img src="Images/CM4105 - Character Sheet.png" width="100%" height="100%" alt="2D Character">
+                    </div>
+                </div>
+
+                <div class="mySlides">
+                    <div class="imageFormatting2">
+                        <div class="numbertext">3 / 4</div>
+                        <img src="Images/Utility Belt.png" width="100%" height="100%" alt="2D Character">
+                    </div>
+                </div>
+
+                <div class="mySlides">
+                    <div class="imageFormatting2">
+                        <div class="numbertext">4 / 4</div>
+                        <img src="Images/Degree Show Poster - 2108868.png" width="100%" height="100%" alt="2D Character">
+                    </div>
+                </div>
+
+                <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                    <span class="dot" onclick="currentSlide(4)"></span>
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
             </div>
         </div>
     </main>
 
     <footer>
         <!-- Links -->
+        <a href="https://www.instagram.com/jakemcmillan.ink/" class="portfolioButton" aria-label="Instagram">
+            <iconify-icon icon="mdi:instagram"></iconify-icon>
+        </a>
+
         <a href="https://www.linkedin.com/in/jake-mcmillan-b3a2422a5/?original_referer=" class="portfolioButton" aria-label="LinkedIn">
             <iconify-icon icon="bi:linkedin"></iconify-icon>
         </a>
@@ -53,7 +117,7 @@
             <iconify-icon icon="mdi:youtube"></iconify-icon>
         </a>
 
-        <p>©2024 Jake McMillan @jakemcmillansr388@gmail.com</p>
+        <p>©2026 Jake McMillan @jakemcmillansr388@gmail.com</p>
     </footer>
     
 </body>
