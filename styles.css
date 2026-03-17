@@ -40,7 +40,6 @@ h1 {
 h3 {
     text-align: center;
     color: #f2f4f7;
-    /*font-family: 'Franklin Gothic Medium';*/
     font-family: 'Verdana';
     font-size: 24px;
     text-shadow: 3px 2px 0px #000000;
@@ -98,10 +97,6 @@ nav ul{
     display: inline;
     justify-content: center;
     align-items: center;
-    /*background-color: #212417;*/
-    /*background-color: #093050;*/
-    /*border: 1px solid #000000;
-    border-radius: 2px;*/
     margin-left: auto;
     margin-right: auto;
 }
@@ -131,7 +126,6 @@ nav ul li a {
     width: 100%;
     padding: 0px;
     margin: 0px;
-    /*text-shadow: 2px 2px 0px black;*/
     font-family: 'Franklin Gothic Medium';
 }
 
@@ -152,12 +146,12 @@ header h1 {
     padding: 10px;
     margin: 15px;
     box-shadow: 4px 4px 0px black;
-    width: 70%;
-    animation-name: fadeIn;
+    width: 50%;
+    /*animation-name: fadeIn;
     animation-duration: 1s;
     position: relative;
     animation-fill-mode: forwards;
-    opacity: 0;
+    opacity: 0;*/
 }
 
 .textTest2 {
@@ -237,26 +231,13 @@ header h1 {
 
 .slideshow-container2 {
     width: 70%;
-    /*max-height: 450px;*/
     position: relative;
     margin: auto;
-    /*background-color: #093050;
-    border: 2px solid black;
-    box-shadow: 4px 4px 0px black;
-    border-radius: 15px;*/
-    animation-name: fadeInRight;
-    animation-duration: 1s;
-    animation-delay: 0.3s;
-    animation-fill-mode: forwards;
-    opacity: 0;
 }
 
 .slideshow-container2 img{
     margin: auto;
-    /*width: 720px;*/
     max-width: 100%;
-    /*max-width: 720px;
-    max-height: 450px;*/
 }
 
 .bioContainer {
@@ -264,7 +245,7 @@ header h1 {
     position: relative;
     margin: auto;
     margin-bottom: 10px;
-    background-color: #093050;
+    background-color: #212417;
     border: 2px solid black;
     box-shadow: 4px 4px 0px black;
     border-radius: 15px;
@@ -483,7 +464,6 @@ to {opacity: 1}
     justify-content: center;
     height: 700px;
     max-width: 80%;
-    
     max-height: 480px;
 }
 
@@ -579,16 +559,13 @@ to {opacity: 1}
 a img {
     transition: width 0.66s ease-out;
     box-shadow: 4px 4px 0px black;
-    /*object-fit: cover;*/
 }
 
 .imageFormatting2:hover .imageText, .imageText p{
-    /*transition: 0.3s ease;*/
     opacity: 1;
 }
 
 .imageFormatting3:hover .imageText, .imageText p{
-    /*transition: 0.3s ease;*/
     opacity: 1;
 }
 
@@ -728,7 +705,6 @@ header .icon {
     }
 
     .textFormatting {
-        /*text-align: left;*/
         text-align: center;
         font-size: 12px;
         margin-bottom: 5px;
@@ -755,7 +731,6 @@ header .icon {
         margin: auto;
         margin-bottom: 10px;
         padding: 5px;
-        background-color: #093050;
         justify-content: center;
     }
 
@@ -879,11 +854,4 @@ header .icon {
         max-width: 100%;
         max-height: 50%;
     }
-
-    /*.slideshow-container, .slideshow-container2, .bioContainer {
-        display: block;
-        width: 85%;
-        justify-content: center;
-        align-items: center;
-    }*/
 }
