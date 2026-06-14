@@ -7,7 +7,7 @@ body {
     font-family: Verdana;
 
     /*background-image: url('Images/Black\ Canary.png');*/
-    background-image: url('Images/Magik\ &\ Cloud 2.png');
+    background-image: url('Images/Magik\ &\ Cloud 2.webp');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -250,6 +250,16 @@ header h1 {
     min-height: 100vh;    
     display: flex;
     flex-direction: column;
+}
+
+.container2 {
+    min-height: 100vh;    
+    display: flex;
+    flex-direction: column;
+    background-image: url('Images/Magik\ &\ Cloud 2.webp');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .contentBox, .navBox{
@@ -865,7 +875,7 @@ header .icon {
         display: none;
     }
 
-    .imageContainer2, .imageContainer3, .imageContainer4, .imageContainer5, .imagePanels, .imagePanels3{
+    .imageContainer2, .imageContainer3, .imageContainer4, .imageContainer5, .imagePanels, .moreImagePanels, .imagePanels3{
         display: inline-block;
         align-items : center;
         justify-content: center;
