@@ -9,46 +9,26 @@
     <title>Jake McMillan | Filmmaking</title>
     <link rel="icon" type="image/x-icon" href="Icons/Favicon.png">
 
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="styles copy.css">
     <script src="https://code.iconify.design/iconify-icon/2.1.0/iconify-icon.min.js" defer></script>
-    <script src="Hamburger.js" defer></script>
     <script src="Carousel.js" defer></script>
     
 </head>
 
 <body class="container">
     <header>
-        <h1 class="titleText">JAKE MCMILLAN</h1>
-        <h2 class="titleText">Digital Multimedia Artist</h2>
-
-        <nav>
-            <ul>
-                <li><a href="index.html" class="active">Home</a></li>
-                <li><a href="Portfolio.html">Portfolio</a></li>
-            </ul>
-        </nav>
-
-        <div id="navID">
-            <a href="index.html" class="active">Home</a>
-            <a href="Portfolio.html">Portfolio</a>
-        </div>
-
-        <a class="icon" onclick="hamburgerMenu()">
-            <iconify-icon icon="pajamas:hamburger"></iconify-icon>
-        </a>
     </header>
     
     <main>
         <div class="contentBox">
             <h3>Short Film - "The Art of Roasting"</h3>
-            <div class="bioContainer">
-                <div class="textTest">      
-                    <p class="greyText">Coursework</p>
-                    <p>DaVinci Resolve - April 2025</p>
-                </div>
+            <h4>DaVinci Resolve - April 2025</h4>
 
+            <div class="imageFormattingAgain">
                 <iframe width=100% src="https://www.youtube.com/embed/iTFV24AO2gE" allowfullscreen></iframe>
+            </div>
 
+            <div class="bioContainer">
                 <p class="bioText">
                     Directed short film based on brief requiring character named Sam, a mug and line "it's not about force, it's
                     about finesse". Responsible for taking the film through full pipeline; pre-production, production,
@@ -84,37 +64,23 @@
                 </div>
 
                 <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(0)"></span>
                     <span class="dot" onclick="currentSlide(1)"></span>
                     <span class="dot" onclick="currentSlide(2)"></span>
-                    <span class="dot" onclick="currentSlide(3)"></span>
                 </div>
 
-                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                <a class="prev" onclick="plusSlides(1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(0)">&#10095;</a>
+        </div>
+
+        <div class="contentBox">
+            <a class="portfolioButton" onclick="history.back()" ari-label="Back"><iconify-icon icon="ic:round-arrow-back"></iconify-icon></a>
         </div>
     </main>
 
     <footer>
-        <!-- Links -->
-        <a href="https://www.instagram.com/jmcmillart/" class="portfolioButton" aria-label="Instagram">
-            <iconify-icon icon="mdi:instagram"></iconify-icon>
-        </a>
-
-        <a href="https://www.linkedin.com/in/jake-mcmillan-b3a2422a5/?original_referer=" class="portfolioButton" aria-label="LinkedIn">
-            <iconify-icon icon="bi:linkedin"></iconify-icon>
-        </a>
-
-        <a href="https://github.com/a-usern4me" class="portfolioButton" aria-label="GitHub">
-            <iconify-icon icon="mdi:github"></iconify-icon>
-        </a>
-
-        <a href="https://www.youtube.com/@JakeMcMillan-d9h" class="portfolioButton" aria-label="YouTube">
-            <iconify-icon icon="mdi:youtube"></iconify-icon>
-        </a>
-
         <p>©2026 Jake McMillan @jakemcmillansr388@gmail.com</p>
     </footer>
-
 </body>
 
 </html>
