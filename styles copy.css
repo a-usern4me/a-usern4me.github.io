@@ -5,8 +5,6 @@ body {
     min-height: 100%;
     width: 100%;
     font-family: Verdana;
-
-    /*background-image: url('Images/Black\ Canary.png');*/
     background-image: url('Images/Magik\ &\ Cloud 2.webp');
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -28,20 +26,13 @@ main {
     flex: 1;
     margin-top: 10px;
     margin-bottom: 10px;
-    /*background-image: url('Images/Black\ Canary.png');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;*/
 }
 
 header{
     margin: 0px;
     padding: 0px;
     width: 100%;
-    /*background-color: #093050;*/
-    /*background-color: #284564;*/
     text-align: center;
-    /*position: fixed;*/
     z-index: 1;
 }
 
@@ -53,6 +44,10 @@ header img {
     background-color: #284564;
     border-radius: 100px;
     border: 2px solid white;
+}
+
+header h4 {
+    color: #ffffff;
 }
 
 .heroText {
@@ -116,7 +111,6 @@ footer iconify-icon{
 
 .navBox{
     display: inline-block;
-    /*margin-top: 100px;*/
     margin: 50px;
     width: auto;
 }
@@ -155,7 +149,6 @@ nav ul{
 }
 
 nav ul li {
-    /*float: left;*/
     margin: 10px;
 }
 
@@ -174,10 +167,7 @@ nav ul li a {
 
 /* Text Formatting */
 .titleText {
-    /*color: #f2f4f7;*/
     color: #ffffff;
-    /*background-color: #f2f4f7;*/
-
     text-align: center;
     width: 100%;
     padding: 0px;
@@ -203,11 +193,6 @@ header h1 {
     margin: 15px;
     box-shadow: 4px 4px 0px black;
     width: 50%;
-    /*animation-name: fadeIn;
-    animation-duration: 1s;
-    position: relative;
-    animation-fill-mode: forwards;
-    opacity: 0;*/
 }
 
 .textTest2 {
@@ -318,7 +303,6 @@ header h1 {
     position: relative;
     margin: auto;
     margin-bottom: 10px;
-    /*background-color: #212417;*/
     background-color: #093050;
     border: 2px solid black;
     box-shadow: 4px 4px 0px black;
@@ -386,6 +370,19 @@ text-align: left;
 justify-content: center;
 }
 
+.text2 {
+color: #ffffff;
+opacity: 0%;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+text-align: center;
+justify-content: center;
+line-height: 1.5;
+}
+
 /* Number text (1/3 etc) */
 .numbertext {
 color: #f2f2f2;
@@ -434,19 +431,8 @@ to {opacity: 1}
     text-align: center;
     align-items: center;
     display: inline-block;
-    /*border: 2px solid black;
-    background-color: #093050;
-    border-radius: 15px;*/
-    /*padding: 10px;*/
     margin: 10px;
-    /*box-shadow: 4px 4px 0px black;*/
     width: 70%;
-    /*animation-name: fadeIn;
-    animation-duration: 1s;
-    animation-delay: 0.5s;
-    position: relative;
-    animation-fill-mode: forwards;
-    opacity: 0;*/
 }
 
 .iconWall {
@@ -588,6 +574,20 @@ to {opacity: 1}
     max-width: 720px;
 }
 
+.imageFormatting0 {
+    position: relative;
+    display: inline-block;
+    margin: 5px;
+    border: 2px solid black;
+    border-radius: 2px;
+    max-width: 720px;
+}
+
+.imageFormatting2:hover {
+    border: 2px solid white;
+    /*box-shadow: 4px 4px 0px white;*/
+}
+
 .imageFormattingAgain {
     position: relative;
     display: inline-block;
@@ -661,10 +661,10 @@ to {opacity: 1}
     font-size: 20px;
 }
 
-a img {
+/*a img {
     transition: width 0.66s ease-out;
     box-shadow: 4px 4px 0px black;
-}
+}*/
 
 .imageFormatting2:hover .imageText, .imageText p{
     opacity: 1;
@@ -734,22 +734,7 @@ header .icon {
     main {
         margin-top: 10px;
         margin-bottom: 10px;
-        /*padding: 15px*/
-        background-position: center;
-        background-repeat: no-repeat;
-        background-attachment:inherit;
-        background-size: cover;
     }
-
-    /*header {
-        background-color: transparent;
-        background-color: #000000;
-        border-bottom: 3px solid black;
-    }*/
-
-    /*.titleText {
-        background-color: #093050;
-    }*/
 
     header .icon {
         color: #ffffff;
@@ -763,11 +748,6 @@ header .icon {
     header img {
         margin-top: 25px;
     }
-
-    /*header img {
-        width: 100px;
-        height: 100px;
-    }*/
 
     header .icon iconify-icon {
         font-size: 18px;
@@ -902,6 +882,18 @@ header .icon {
         line-height: 0;
         max-width: 100%;
         height: 100%;
+    }
+
+    .contentBox h3 {
+        display: none;
+    }
+
+    .imageFormatting2 {
+        border: 2px solid white;
+    }
+
+    .text2 {
+        opacity: 80%;
     }
 
     .imageText {
