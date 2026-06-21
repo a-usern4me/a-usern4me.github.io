@@ -1,0 +1,45 @@
+/*.imageContainer {
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}*/
+
+/*
+.imageFormatting4 {
+    position: relative;
+    display: inline-flex;
+    margin: 5px;
+    max-width: 50%;
+    border: 2px solid black;
+    background-color: #ffffff;
+}
+*/
+
+/*
+.videoContainer {
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+*/
+
+/* Last Container */
+.imageContainer5 {
+    padding: 0px;
+    margin: 0px;
+    display: inline-flex;
+    max-width: 100%;
+}
