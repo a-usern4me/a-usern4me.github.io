@@ -5,7 +5,6 @@ body {
     min-height: 100%;
     width: 100%;
     font-family: Verdana;
-    background-image: url('Images/Magik\ 2.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -190,6 +189,7 @@ to {opacity: 1}
     border-radius: 2px;
     max-width: 720px;
     line-height: 0;
+    background-color: #000000;
 }
 
 .iframeFormatting {
@@ -211,7 +211,7 @@ iframe {
     min-height: 100vh;    
     display: flex;
     flex-direction: column;
-    background-image: url('Images/Magik\ 2.jpg');
+    background-image: url('Images/Halloween\ 2026\ -\ BG.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -270,11 +270,13 @@ iframe {
 }
 
 .caption {
-color: #ffffff;
-opacity: 0%;
+color: #000000;
+background-color: #ffffff;
+opacity: 80%;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 position: absolute;
-top: 50%;
+/*top: 50%;*/
+bottom: 0%;
 left: 50%;
 transform: translate(-50%, -50%);
 text-align: center;
@@ -501,7 +503,7 @@ animation-duration: 1.5s;
 
     .textFormatting {
         text-align: left;
-        font-size: 15px;
+        font-size: 12px;
     }
 
     .caption {
@@ -537,7 +539,7 @@ animation-duration: 1.5s;
     }
 
     .portfolioBox h3 {
-        display: none;
+        display: block;
     }
 
     .bioContainer {
